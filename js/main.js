@@ -1,7 +1,7 @@
 $(function(){
     "use strict";
     // nice scroll
-    $("html").niceScroll();
+  $("html").niceScroll();
 
     window.onscroll = function() {myFunction()};
 
