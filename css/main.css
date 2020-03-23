@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* start header */
+.header{
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    position: relative;
+    color: #ffffff;
+    z-index: 2;
+}
+.overlay{
+    position:absolute;
+    background-color: rgba(0,0,0, .7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+}
+.header .info{
+    text-transform: uppercase;
+     
+    margin-top: 30px;
+    color: #fff;
+    ;
+    padding: 30px 30px;
+}
+.info .logo, .info h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-size: 40px;
+    letter-spacing: 10px;
+    word-spacing: 18px;
+}
+/* .call h1{
+    text-shadow: 0px 3px #fff;
+    margin-top: 60px;
+} */
+
+/* start menu  */
+.menu h1{
+    margin: 40px auto;
+    width: 240px;
+    color: #615f5f;
+    padding: 10px;
+    border-bottom: 2px groove #b725257a;
+    border-top: 2px solid #b725257a;
+    text-align: center;
+}
+/* .menu h1:hover{
+    margin: 40px auto;
+    width: 240px;
+    color: #615f5f;
+    padding: 10px;
+    font-size: 41px;
+    transition: all 1.5 ease-in-out;
+    border-bottom: 2px groove #b725257a;
+    border-top: 2px solid #b725257a;
+    text-align: center;
+    transition: all 1s ease-in-out;
+} */
+.card{
+    margin-top: 20px;
+}
+.card:hover{
+    width:103% ;
+    
+}
+.menu .row div{
+    margin-bottom: 3px;
+}
+.card-body{
+    background-color: #DE373F;
+}
+.card-title {
+    color: #fff;
+    margin-bottom: 25px !important;
+    font-family: tahoma;
+    text-align: center;
+}
+.price{
+text-align: center;
+}
+.price .row{
+    justify-content: center;
+}
+.price .row .num {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.price .row .char{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.price span{
+    margin:0 10px;
+    background: #4e4343;
+    padding: 5px 15px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+
+
