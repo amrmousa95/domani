@@ -47,7 +47,7 @@
 }
 @media(max-width:992px){
     .info .logo, .info h1 {
-        font-weight: normal;
+        font-weight: bold;
         text-transform: uppercase;
         font-family: tahoma;
         font-size: 40px;
@@ -63,25 +63,26 @@
         padding-top: 250px;
     }
 }
+/* small size screen */
 @media(max-width:576px){
     .info .logo, .info h1 {
-        font-weight: normal;
+        font-weight: bold;
         text-transform: uppercase;
-        font-family: tahoma;
+        font-family: tahoma,arial;
         font-size: 35px;
         letter-spacing: 4px;
         word-spacing: 5px;
     }
     .logo{
-        margin-top: 0px;
+        margin-top: -40px;
     }
     .header .phone{
-        margin-top: 0px;
+        margin-top: -40px;
         margin-bottom: 0px;
-        overflow: hidden;
+        
     }  
-    .sticky {
-        padding-top: 0px;
+    .sticky + .content {
+        padding-top: 180px;
     } 
 }
 .fa-phone{
@@ -124,10 +125,10 @@
 
 .card:hover{
     transform: scale(1.1);
-    transition: all 1s ease;
+    transition: all 1s ease-in-out;
 }
 .menu .row div{
-    margin-bottom: 3px;
+    margin-bottom: 6px;
 }
 .card-body{
     background-color: #DE373F;
