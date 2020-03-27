@@ -73,14 +73,15 @@
         word-spacing: 5px;
     }
     .logo{
-        margin-top: -25px;
+        margin-top: 0px;
     }
     .header .phone{
-        margin-top: -40px;
+        margin-top: 0px;
         margin-bottom: 0px;
+        overflow: hidden;
     }  
-    .sticky + .content{
-        padding-top: 180px;
+    .sticky {
+        padding-top: 0px;
     } 
 }
 .fa-phone{
